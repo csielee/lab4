@@ -13,5 +13,5 @@ B.
 4 8
 8 8
 
-sizeof()會顯示該變數所使用的位元數(bit)，char是1byte，int是2bytes，float是4bytes，double是8bytes
+sizeof()會顯示該變數所使用的位元數(bit)，char是1byte，int是4bytes，float是4bytes，double是8bytes
 後面都是8bytes是因為變數的指標都是代表記憶體位址，所以使用位元數都會相等，大小會是記憶體大小
